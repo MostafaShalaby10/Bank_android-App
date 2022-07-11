@@ -2,7 +2,9 @@
 
 
 This app contains user pages and admin pages
+
 It contains signin for user and admin 
+
 It contains signup for admin
 
 # Admin can do :
