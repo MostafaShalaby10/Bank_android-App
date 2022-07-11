@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".deleteadmin">
+    <TableRow android:layout_margin="30px">
+        <TextView
+            android:text="@string/id"
+            android:layout_weight="1"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/idtxt"
+            android:hint="@string/enterid"
+            android:layout_weight="3"/>
+    </TableRow>
+
+    <TableRow android:layout_margin="30px">
+        <TextView
+            android:layout_weight="1"/>
+        <Button
+            android:layout_gravity="center"
+            android:onClick="ondeleteadminclick"
+            android:padding="30px"
+            android:text="@string/deleteadmin"
+            android:textSize="15sp" />
+    </TableRow>
+
+
+
+</TableLayout>

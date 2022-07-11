@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">بنك</string>
+    <string name="admin">مسؤول</string>
+    <string name="user">مستخدم</string>
+    <string name="username">الاسم</string>
+    <string name="id">الرقم القومي</string>
+    <string name="pass">الرقم السري</string>
+    <string name="confpass">ـاكيد الرقم السري</string>
+    <string name="balance">الرصيد</string>
+    <string name="phone">رقم التليفون</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">انشاء حساب</string>
+    <string name="createaccount">انشاء حساب؟</string>
+    <string name="haveanaccount">لديك حساب؟</string>
+    <string name="entername">ادخل الاسم</string>
+    <string name="enterid">ادخل الرقم القومي</string>
+    <string name="enterpass">ادخل الرقم السري</string>
+    <string name="enterphone">ادخل رقم التليفون</string>
+    <string name="enterbalance">ادخل الرصيد</string>
+    <string name="insertuser">اضافه عميل</string>
+    <string name="insertadmin">اضافه مسؤول</string>
+    <string name="updateuser">تحديث عميل</string>
+    <string name="updateadmin">تحديث مسؤول</string>
+    <string name="deleteuser">حذف عميل</string>
+    <string name="deleteadmin">حذف مسؤول</string>
+    <string name="searchuser">بحث عن عميل</string>
+    <string name="searchadmin">بحث عن مسؤول</string>
+    <string name="showadmindata">عرض بيانات المسؤولين</string>
+    <string name="showuserdata">عرض بيانات المستخدمين</string>
+
+    <string name="profile">الحساب الشخصي</string>
+    <string name="deposit">ايداع</string>
+    <string name="withdrawal">سحب</string>
+    <string name="transfer">تحويل</string>
+    <string name="entertheamount">ادخل المبلغ</string>
+    <string name="choose">تحديد المستلم :-</string>
+    <string name="logout">تسجيل خروج</string>
+
+</resources>

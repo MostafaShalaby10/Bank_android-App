@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".insertadmin">
+    <TableRow android:layout_margin="30px">
+        <TextView
+            android:text="@string/id"
+            android:layout_weight="1"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/idtxt"
+            android:hint="@string/enterid"
+            android:layout_weight="3"/>
+    </TableRow>
+    <TableRow android:layout_margin="30px">
+        <TextView
+            android:text="@string/username"
+            android:layout_weight="1"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/nametxt"
+            android:hint="@string/entername"
+            android:layout_weight="3"/>
+    </TableRow>
+    <TableRow android:layout_margin="30px">
+        <TextView
+            android:text="@string/pass"
+            android:layout_weight="1"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/passtxt"
+            android:hint="@string/enterpass"
+            android:layout_weight="3"/>
+    </TableRow>
+    <TableRow android:layout_margin="30px">
+        <TextView
+            android:text="@string/confpass"
+            android:layout_weight="1"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/confpasstxt"
+            android:hint="@string/enterpass"
+            android:layout_weight="3"/>
+    </TableRow>
+
+    <TableRow android:layout_margin="30px">
+        <TextView/>
+        <Button
+            android:text="@string/insertadmin"
+            android:textSize="15sp"
+            android:padding="30px"
+            android:onClick="oninsertadminclick"
+            android:layout_gravity="center"/>
+    </TableRow>
+
+</TableLayout>

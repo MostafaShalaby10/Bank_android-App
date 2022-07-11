@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".userhomepage">
+    <TableRow android:layout_margin="30px">
+        <Button
+            android:text="@string/profile"
+            android:textSize="15sp"
+            android:padding="30px"
+            android:onClick="onprofileclick"
+            android:layout_margin="10px"
+            android:layout_weight="1"/>
+        <Button
+            android:text="@string/transfer"
+            android:textSize="15sp"
+            android:onClick="ontransferclick"
+            android:padding="30px"
+            android:layout_margin="10px"
+            android:layout_weight="1"/>
+    </TableRow><TableRow android:layout_margin="30px">
+        <Button
+            android:text="@string/deposit"
+            android:textSize="15sp"
+            android:padding="30px"
+            android:layout_margin="10px"
+            android:onClick="ondepositclick"
+            android:layout_weight="1"/>
+        <Button
+            android:text="@string/withdrawal"
+            android:textSize="15sp"
+            android:padding="30px"
+            android:layout_margin="10px"
+            android:onClick="onwithdrawalclick"
+            android:layout_weight="1"/>
+    </TableRow>
+
+</TableLayout>

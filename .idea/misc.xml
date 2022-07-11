@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_adminhomepage.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_deleteadmin.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_deleteuser.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_deposit.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_insertadmin.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_insertuser.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_main.xml" value="0.20625" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_searchadmin.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_searchuser.xml" value="0.20625" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_showadmindata.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_showuserdata.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_signinadmin.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_signinuser.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_signupadmin.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_transfer.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_updateadmin.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_updateuser.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_userhomepage.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_userprofile.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/layout/activity_withdrawal.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/menu/menu.xml" value="0.2234375" />
+        <entry key="..\:/Bank_app/app/src/main/res/menu/menu1.xml" value="0.2234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

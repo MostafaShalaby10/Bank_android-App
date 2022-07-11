@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".signinadmin">
+
+    <TableRow
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/capture" />
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="30px"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/id"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/idtxt"
+            android:layout_weight="2"
+            android:hint="@string/enterid"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="30px"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/pass"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/passtxt"
+            android:layout_weight="2"
+            android:hint="@string/enterpass"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="30px"
+        android:layout_weight="1"
+
+        android:gravity="center">
+
+        <Button
+            android:onClick="onclick"
+            android:padding="20px"
+            android:backgroundTint="@color/black"
+            android:text="@string/login"
+            android:textSize="15sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_margin="30px"
+
+        android:layout_weight="1">
+
+        <TextView android:layout_weight="1" />
+
+        <Button
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:onClick="onsignupclick"
+            android:text="@string/signup"
+            android:textSize="15sp" />
+    </TableRow>
+</TableLayout>

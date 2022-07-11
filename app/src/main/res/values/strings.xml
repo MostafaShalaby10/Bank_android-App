@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Bank</string>
+    <string name="admin">Admin</string>
+    <string name="user">User</string>
+    <string name="username">Username</string>
+    <string name="id">ID</string>
+    <string name="pass">Password</string>
+    <string name="confpass">ConfPassword</string>
+    <string name="balance">Balance</string>
+    <string name="phone">Phone</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="createaccount">Create an account</string>
+    <string name="haveanaccount">Have an account?</string>
+    <string name="entername">Please enter username</string>
+    <string name="enterid">Please enter ID</string>
+    <string name="enterpass">Please enter Password</string>
+    <string name="enterphone">Please enter phone</string>
+    <string name="enterbalance">Please enter balance</string>
+    <string name="insertuser">Insert user</string>
+    <string name="insertadmin">Insert admin</string>
+    <string name="updateuser">Update user</string>
+    <string name="updateadmin">Update admin</string>
+    <string name="deleteuser">Delete user</string>
+    <string name="deleteadmin">Delete admin</string>
+    <string name="searchuser">Search user</string>
+    <string name="searchadmin">Search admin</string>
+    <string name="showadmindata">Show admin data</string>
+    <string name="showuserdata">Show user data</string>
+
+    <string name="profile">Profile</string>
+    <string name="deposit">Deposit</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="transfer">Transfer</string>
+    <string name="entertheamount">Enter the amount</string>
+    <string name="choose">Choose the receiver :-</string>
+    <string name="logout">Logout</string>
+
+
+</resources>

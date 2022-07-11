@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transfer">
+
+    <TableRow android:layout_margin="30px">
+
+        <EditText
+            android:id="@+id/amounttxt"
+            android:layout_weight="1"
+            android:hint="@string/entertheamount" />
+
+        <Button
+            android:padding="20px"
+            android:onClick="ontransferclick"
+            android:text="@string/transfer" />
+    </TableRow>
+<TableRow android:layout_margin="30px">
+    <TextView
+        android:text="@string/choose"
+        android:textSize="25sp"/>
+</TableRow>
+    <TableRow android:layout_margin="30px">
+
+        <ListView
+            android:id="@+id/lst"
+            android:layout_weight="1" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".adminhomepage">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:backgroundTint="@color/gray"
+            android:onClick="insertuser"
+            android:padding="50px"
+            android:text="@string/insertuser"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="30px"
+            android:backgroundTint="@color/gray"
+            android:onClick="insertadmin"
+            android:padding="50px"
+            android:text="@string/insertadmin"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30px"
+            android:layout_marginTop="30px"
+            android:layout_marginEnd="30px"
+            android:layout_marginBottom="30px"
+
+            android:backgroundTint="@color/gray"
+            android:onClick="updateuser"
+            android:padding="50px"
+            android:text="@string/updateuser"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="30px"
+            android:backgroundTint="@color/gray"
+            android:onClick="updateadmin"
+
+            android:padding="50px"
+            android:text="@string/updateadmin"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:backgroundTint="@color/gray"
+
+            android:onClick="deleteuser"
+            android:padding="50px"
+            android:text="@string/deleteuser"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="30px"
+            android:backgroundTint="@color/gray"
+            android:onClick="deleteadmin"
+
+            android:padding="50px"
+            android:text="@string/deleteadmin"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:backgroundTint="@color/gray"
+            android:onClick="searchuser"
+            android:padding="50px"
+
+            android:text="@string/searchuser"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="30px"
+            android:backgroundTint="@color/gray"
+            android:onClick="searchadmin"
+            android:padding="50px"
+
+            android:text="@string/searchadmin"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
